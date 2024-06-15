@@ -50,7 +50,7 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(/rohit.png)no-repeat;
+    background: url("rohit.png")no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -730,7 +730,8 @@ box-shadow: 10px 10px 68px 3px rgba(21,235,114,1);
 
 /* ---------------------------------------css for 450 px----------------------------------------------------------- */
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px){          
+
     
     .home{
         position: relative;
@@ -775,7 +776,7 @@ box-shadow: 10px 10px 68px 3px rgba(21,235,114,1);
         width: 101%;
         border-radius: 8%;
         background-color: #081b29;
-    
+        
     }
     .about-text{
         margin-top: -200px;
@@ -785,7 +786,7 @@ box-shadow: 10px 10px 68px 3px rgba(21,235,114,1);
         font-size: 53px;
         padding-left: 24%;
         margin-top: 5%;
-    
+        
     }
     .about-text h2 span{
         color: #0ef;
@@ -796,7 +797,7 @@ box-shadow: 10px 10px 68px 3px rgba(21,235,114,1);
         margin-top: 2px;
         margin-bottom: 2px;
     }
-    }
+    
     .about-text p{
         font-size: 22px;
         /* padding-inline: 8%; */
@@ -806,19 +807,19 @@ box-shadow: 10px 10px 68px 3px rgba(21,235,114,1);
     }
     
     
-.countainer {
-    padding: 34px;
-    margin-top: 43%;
-    width: 100%;
-
-     
+    .countainer {
+        padding: 34px;
+        margin-top: 43%;
+        width: 100%;
+        
+    }
     
-     .sub-title{
+    .sub-title{
         text-align: center;
         font-size: 54px;
         padding-bottom: 70px;
         margin-top: 15%;
-    
+        
     }
     
     .skills {
@@ -832,7 +833,7 @@ box-shadow: 10px 10px 68px 3px rgba(21,235,114,1);
         margin-left: 68px;
         width: 70vw;
     }
-      
+    
     .main-text{
         padding-top: 10PX;
         margin-top: 100PX;
@@ -931,7 +932,9 @@ box-shadow: 10px 10px 68px 3px rgba(21,235,114,1);
         box-shadow: 10px 10px 24px 15px rgba(0, 0, 0, 0.75);
         margin-left: -77%;
         margin-top: 5%;
+        
     }
     
-    
 }
+    
+    
