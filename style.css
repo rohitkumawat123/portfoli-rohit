@@ -50,7 +50,7 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url("rohit.png")no-repeat;
+    background: url(/rohit.png)no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -724,4 +724,214 @@ box-shadow: 10px 10px 68px 3px rgba(21,235,114,1);
 }
 
 
+}
+
+
+
+/* ---------------------------------------css for 450 px----------------------------------------------------------- */
+
+@media screen and (max-width: 450px){
+    
+    .home{
+        position: relative;
+        width: 100%;
+        justify-content: space-between;
+        height: 85vh;
+        background: #081b29;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        padding: 63px 60px;
+    }
+    
+    .home .home-content .h3{
+        font-size: 27px;
+        font-weight: 200
+    }
+    
+    .home .home-content .para{
+        margin-top: 5%;
+        font-size: 25px;
+    }
+    
+    .home .home-content .name{
+        font-size: 45px;
+        font-weight: 500;
+    }
+    
+    .about{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        gap: 1.5rem;
+        justify-content: center;
+        height: 86vh;
+    }
+    .about-img img {
+        padding-bottom: 33%;
+        max-width: 630px;
+        height: auto;
+        width: 101%;
+        border-radius: 8%;
+        background-color: #081b29;
+    
+    }
+    .about-text{
+        margin-top: -200px;
+    }
+    
+    .about-text h2{
+        font-size: 53px;
+        padding-left: 24%;
+        margin-top: 5%;
+    
+    }
+    .about-text h2 span{
+        color: #0ef;
+    }
+    .about-text h3{
+        font-size: 34px;
+        padding-left: 13%;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    }
+    .about-text p{
+        font-size: 22px;
+        /* padding-inline: 8%; */
+        /* width: 60vw; */
+        padding-left: 5%;
+        margin-top: 2%;
+    }
+    
+    
+.countainer {
+    padding: 34px;
+    margin-top: 43%;
+    width: 100%;
+
+     
+    
+     .sub-title{
+        text-align: center;
+        font-size: 54px;
+        padding-bottom: 70px;
+        margin-top: 15%;
+    
+    }
+    
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        gap: 1.5rem;
+        justify-content: center;
+        height: 83vh;
+        margin-top: 11px;
+        margin-left: 68px;
+        width: 70vw;
+    }
+      
+    .main-text{
+        padding-top: 10PX;
+        margin-top: 100PX;
+        margin-bottom: 80px;
+    }
+    
+    .main-text h2{
+        font-size: 54PX;
+        line-height: 1;
+        text-align: center;
+        margin-bottom: 33px;
+    
+    }
+    
+    .row img{
+        width: 100%;
+        border-radius: 30px;
+        display: inline-block;
+        transition: transform 0.5s;
+        height: 35vh;
+        
+    }
+    
+    
+    .contect{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        gap: 4rem;
+        padding-left: 50px;
+        margin-top: 140px;
+        
+    }
+    
+    
+    .contect-text h2{
+        font-size: 57px;
+        padding-left: 3%;
+        margin-top: -11%;
+        line-height: 1;
+        text-align: center;
+        margin-right: 16%;
+    }
+    
+    
+    .contect-text h4{
+        margin: 15px 0;
+        color: white;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .contect-text p{
+        color: #fff;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 2rem
+    }
+    .contact-list {
+        margin-bottom: 1rem;
+    }
+    
+    .contact-list li{
+        margin-bottom: 10px;
+        display: block;
+        font-size: 24px;
+    }
+    
+    .contact-list i{
+        display: inline-block;
+        color: #0ef;
+        font-size: 20px;
+        font-weight: 600;
+        transition: all .40s ease;
+    }
+    
+    .contact-icons a {
+        font-size: 40px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        padding-left: 15px;
+        margin-top: 1px;
+    }
+    
+    .read {
+        display: inline-block;
+        padding: 14px 23px;
+        background: #0ef;
+        border-radius: 40px;
+        font-size: 17px;
+        color: #081b29;
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-weight: 500;
+        animation: slidtop 1s ease forwards;
+        animation-delay: 2s;
+        box-shadow: 10px 10px 24px 15px rgba(0, 0, 0, 0.75);
+        margin-left: -77%;
+        margin-top: 5%;
+    }
+    
+    
 }
